@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-      <img src="https://ibb.co/yqt8YN0" alt="Project Banner">
+ <a href="https://ibb.co/yqt8YN0"><img src="https://i.ibb.co/RcfCBg2/Screenshot-2024-07-10-203737.png" alt="Screenshot-2024-07-10-203737" border="0" /></a>
   <br />
 
   <div>
