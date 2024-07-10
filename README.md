@@ -10,6 +10,7 @@
   </div>
 
   <h3 align="center">Portfolio</h3>
+  <h2>https://odin-infinity.netlify.app/ </h2>
 </div>
 
 
