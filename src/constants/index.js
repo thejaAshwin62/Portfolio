@@ -36,6 +36,7 @@ import {
   tripguide,
   jobify,
   threejs,
+  Mock,
   mern,
 } from "../assets";
 
@@ -233,31 +234,91 @@ const testimonials = [
 
 const projects = [
   {
-    name: "AR Appliences",
+    name: "Teachers Connect",
     description:
-      "Developed an AR app allows users to visualize home appliances in their space, providing an immersive and interactive experience. Demonstrated expertise in AR development, Unity, and enhancing user engagement through innovative technology",
+      "Teacher Connect is a comprehensive web application designed to streamline teacher-student interactions through an efficient appointment scheduling system.",
     tags: [
       {
-        name: "Unity3D",
+        name: "MongoDB",
         color: "blue-text-gradient",
       },
       {
-        name: "SketchFab",
+        name: "Express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "NodeJS",
+        color: "red-text-gradient",
+      },
+      {
+        name: "DaisyUI",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "CG Traders",
+        name: "Lucide Icons",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Nodemailer",
         color: "pink-text-gradient",
       },
     ],
-    image: AR,
-    source_code_link: "https://github.com/",
+    image: "https://i.ibb.co/YQP0TWn/Screenshot-2024-11-22-223447.png",
+    web_link: "https://teacher-connect.onrender.com/",
+    source_code_link:
+      "https://github.com/thejaAshwin62/Teacher_Connect/tree/main",
   },
-
+  {
+    name: "Mock AI Interviewer",
+    description:
+      "The Mock AI Interviewer enhances interview skills with AI-driven simulations, real-time video integration, and detailed feedback, helping students and freshers",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Drizzle ORM",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Neon",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ShadCN Icons",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Gemini-1.5-Flash",
+        color: "red-text-gradient",
+      },
+    ],
+    image: Mock,
+    web_link: "https://mock-ai-snowy.vercel.app/",
+    source_code_link: "https://github.com/thejaAshwin62/mock-ai",
+  },
   {
     name: "Smart Mirror",
     description:
-      "Developed a Smart Mirror with real-time data integration using Kali Linux, Features include interactive voice control, weather updates, calendar integration. Demonstrated skills in IoT, software development, and user experience design.",
+      "Developed a Smart Mirror with real-time data integration using Kali Linux, Features include interactive voice control, weather updates, calendar integration. Demonstrated skills in IoT, software development.",
     tags: [
       {
         name: "JavaScript",
@@ -281,6 +342,27 @@ const projects = [
       },
     ],
     image: Mirror,
+    source_code_link: "https://github.com/thejaAshwin62/Smart-Mirror",
+  },
+  {
+    name: "AR Appliences",
+    description:
+      "Developed an AR app allows users to visualize home appliances in their space, providing an immersive and interactive experience. Demonstrated expertise in AR development, Unity, and enhancing user engagement through innovative technology",
+    tags: [
+      {
+        name: "Unity3D",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SketchFab",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CG Traders",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: AR,
     source_code_link: "https://github.com/",
   },
   {
@@ -317,7 +399,7 @@ const projects = [
   {
     name: "EA Infinity",
     description:
-      "esports_Arena, is a dynamic platform that allows users to book and participate in esports tournaments for popular games,Players can register for matches,The platform features an integrated admin panel where admins can manage tournaments",
+      "esports_Arena, is a dynamic platform that allows users to book and participate in esports tournaments for popular games,Players can register for matches,The platform features an integrated admin panel.",
     tags: [
       {
         name: "MongoDB",
@@ -345,7 +427,7 @@ const projects = [
       },
     ],
     image: "https://i.ibb.co/GxtJ5RL/ea.png",
-    web_link: "ea-infinity.onrender.com",
+    web_link: "https://ea-infinity.onrender.com",
     source_code_link: "https://github.com/thejaAshwin62/EA-Infinity",
   },
   {
@@ -377,7 +459,7 @@ const projects = [
   {
     name: "Tinger",
     description:
-      "I deploy a Basic ReactJS website which extracts news/article body from a URL and uses GPT to summarize (and optionally translate) the article content. Useful for text mining purposes (ScrapeNinja.net) with high-quality rotating proxies under the hood.",
+      "I deploy a Basic ReactJS website which extracts news/article body from a URL and uses GPT to summarize (and optionally translate) the article content. Useful for text mining purposes (ScrapeNinja.net).",
     tags: [
       {
         name: "React Js",
@@ -446,7 +528,7 @@ const projects = [
       },
     ],
     image: "https://i.ibb.co/kHC6rRF/Screenshot-2024-07-10-204753.png",
-    web_link:"https://gemoai.netlify.app/",
+    web_link: "https://gemoai.netlify.app/",
     source_code_link: "https://github.com/thejaAshwin62/Gemini-AI",
   },
 ];

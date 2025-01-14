@@ -6,8 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import Blender from "./tech/blender.png"
-import Unity from "./tech/unity.png"
+import Blender from "./tech/blender.png";
+import Unity from "./tech/unity.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -21,25 +21,26 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import mongo from './mongo.jpeg';
-import express from './express.jpeg';
-import react from './react.jpeg'
-import node from './node.jpeg'
+import mongo from "./mongo.jpeg";
+import express from "./express.jpeg";
+import react from "./react.jpeg";
+import node from "./node.jpeg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import jobify from './jobify.png'
+import jobify from "./jobify.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import mern from './MERN.png'
-import Mirror from"./Mirror.jpeg"
-import AR from "./AR.png"
-import Tinger from "./Tinger.jpeg"
-import Music from "./Music.png"
-import Filem from "./Filem.jpg"
-import ship from './ship.png'
+import mern from "./MERN.png";
+import Mirror from "./Mirror.jpeg";
+import AR from "./AR.png";
+import Tinger from "./Tinger.jpeg";
+import Music from "./Music.png";
+import Filem from "./Filem.jpg";
+import ship from "./ship.png";
+import Mock from "./Mock.png";
 export {
   Blender,
   Unity,
@@ -49,6 +50,7 @@ export {
   mongo,
   express,
   react,
+  Mock,
   node,
   Tinger,
   Music,
