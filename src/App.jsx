@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { IconCloudDemo } from "./components/IconCloudDemo";
+import { IconCloudDemo } from "./components/IconCloudDemo.jsx";
 import {
   About,
   Contact,

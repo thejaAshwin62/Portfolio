@@ -32,17 +32,17 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    const serviceId = import.meta.env.VITE_SERVICE_ID;
+    const templateId = import.meta.env.VITE_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_PUBLIC_KEY;
+    const toName = import.meta.env.VITE_TO_NAME;
+    const toEmail = import.meta.env.VITE_TO_EMAIL;
 
-    const serviceId='service_nkh3h2o';
-    const templateId = 'template_9j52fmf';
-    const publicKey='H-Pf9nDC3WyS-5kuc';
-  
-    const templateParams = 
-    {
+    const templateParams = {
       from_name: form.name,
-      to_name: "Theja Ashwin",
+      to_name: toName,
       from_email: form.email,
-      to_email: "thejaashwin62@gmail.com",
+      to_email: toEmail,
       message: form.message,
     };
 
