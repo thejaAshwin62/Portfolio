@@ -65,16 +65,16 @@ export const navLinks = [
 
 const services = [
   {
+    title: "MERN Stack Developer",
+    icon: mern,
+  },
+  {
     title: "Unity Developer",
-    icon: web,
+    icon: "https://cdn.simpleicons.org/unity/unity",
   },
   {
     title: "Blender Developer",
-    icon: mobile,
-  },
-  {
-    title: "MERN Stack Developer",
-    icon: mern,
+    icon: "https://cdn.simpleicons.org/blender/blender",
   },
 ];
 
@@ -112,8 +112,25 @@ const technologies = [
     icon: css,
   },
   {
+    name: "Tailwind CSS",
+    icon: "https://cdn.simpleicons.org/tailwindcss/tailwindcss",
+  },
+
+  {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "Docker",
+    icon: "https://cdn.simpleicons.org/docker/docker",
+  },
+  {
+    name: "Amazon Web Services",
+    icon: "https://cdn.simpleicons.org/amazonwebservices/amazonwebservices",
+  },
+  {
+    name: "Java",
+    icon: "https://th.bing.com/th/id/OIP.M44Ib9sh4WyDYhtdjwOpvwHaHa?w=191&h=191&c=7&r=0&o=5&dpr=1.5&pid=1.7",
   },
 ];
 

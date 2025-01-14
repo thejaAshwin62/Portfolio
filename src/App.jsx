@@ -22,7 +22,7 @@ const App = () => {
         </div>
         <About />
         {/* <Experience /> */}
-        <div className="flex justify-center items-center px-4 sm:px-8 md:px-12">
+        <div className="flex justify-center items-center">
           <IconCloudDemo />
         </div>
 
