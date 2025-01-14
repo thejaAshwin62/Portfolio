@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gaming Setup
+* source:	https://sketchfab.com/3d-models/gaming-setup-8a75c64542c14be0ad3dcf75423eda0d
+* author:	DeadLink (https://sketchfab.com/d43dLink)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gaming Setup" (https://sketchfab.com/3d-models/gaming-setup-8a75c64542c14be0ad3dcf75423eda0d) by DeadLink (https://sketchfab.com/d43dLink) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
