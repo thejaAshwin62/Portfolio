@@ -98,7 +98,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-
 .red-text-gradient {
   /* background: -webkit-linear-gradient(#eee, #333); */
   background: #fb0404; /* fallback for old browsers */
@@ -115,7 +114,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 .pink-text-gradient {
   background: #ec008c; /* fallback for old browsers */

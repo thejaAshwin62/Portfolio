@@ -1,5 +1,4 @@
 import { BrowserRouter } from "react-router-dom";
-import { IconCloudDemo } from "./components/IconCloudDemo.jsx";
 import {
   About,
   Contact,
@@ -21,15 +20,16 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <About />
-        {/* <Experience /> */}
-        <div className="flex justify-center items-center">
-          <IconCloudDemo />
+        <div className="relative z-0 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <About />
+          {/* <Experience /> */}
+          <div className="my-8 sm:my-12 md:my-16 lg:my-20">
+            <IconCloudDemo />
+          </div>
+          <Tech />
+          <Works />
+          <Feedbacks />
         </div>
-
-        <Tech />
-        <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
