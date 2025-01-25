@@ -1,11 +1,11 @@
 import React from "react";
-import { IconCloud } from "./IconCloud";
+import IconCloud from "./IconCloud";
 
 // Updated slugs array with removed logos
 const slugs = [
   "javascript",
   "python",
-  "java",
+
   "react",
   "html5",
   "css3",
@@ -50,7 +50,7 @@ const slugs = [
   "netlify",
 ];
 
-export function IconCloudDemo() {
+export default function IconCloudDemo() {
   const images = slugs.map(
     (slug) => `https://cdn.simpleicons.org/${slug}/${slug}`
   );

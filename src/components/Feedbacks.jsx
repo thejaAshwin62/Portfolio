@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
-import { AnimatePresence } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 import { cn } from "../lib/utils";
 
@@ -54,30 +51,15 @@ const HoverEffect = ({ items, className }) => {
       )}
     >
       {items.map((item, idx) => (
-        <motion.div
+        <div
           key={item.name}
           className="relative group block p-2 h-full w-full"
-          variants={fadeIn("", "spring", idx * 0.5, 0.75)}
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
-          <AnimatePresence>
-            {hoveredIndex === idx && (
-              <motion.span
-                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block rounded-3xl"
-                layoutId="hoverBackground"
-                initial={{ opacity: 0 }}
-                animate={{
-                  opacity: 1,
-                  transition: { duration: 0.15 },
-                }}
-                exit={{
-                  opacity: 0,
-                  transition: { duration: 0.15, delay: 0.2 },
-                }}
-              />
-            )}
-          </AnimatePresence>
+          {hoveredIndex === idx && (
+            <span className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block rounded-3xl" />
+          )}
           <Card>
             <CardTitle className="red-text-gradient mb-10 font-black text-[24px]">
               {item.topic}
@@ -101,7 +83,7 @@ const HoverEffect = ({ items, className }) => {
               />
             </div>
           </Card>
-        </motion.div>
+        </div>
       ))}
     </div>
   );
@@ -113,10 +95,10 @@ const Feedbacks = () => {
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
-        <motion.div variants={textVariant()}>
+        <div>
           <p className={styles.sectionSubText}>Achievements</p>
           <h2 className={styles.sectionHeadText}>Testimonials.</h2>
-        </motion.div>
+        </div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX}`}>
         <HoverEffect items={testimonials} />
